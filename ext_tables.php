@@ -5,7 +5,7 @@ if (!defined('TYPO3_MODE')) {
 
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-	'ZECHENDORF.' . $_EXTKEY,
+	'Cobweb.' . $_EXTKEY,
 	'Ad',
 	'Ad'
 );

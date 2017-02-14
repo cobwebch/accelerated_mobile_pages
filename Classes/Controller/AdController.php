@@ -1,11 +1,11 @@
 <?php
-namespace ZECHENDORF\AcceleratedMobilePages\Controller;
+namespace Cobweb\AcceleratedMobilePages\Controller;
 
 /***************************************************************
  *
  *  Copyright notice
  *
- *  (c) 2016 Christopher Zechendorf <christopher@zechendorf.com>, ZECHENDORF
+ *  (c) 2017 Roberto Presedo <typo3@cobweb.ch>, Cobweb
  *
  *  All rights reserved
  *
@@ -25,11 +25,12 @@ namespace ZECHENDORF\AcceleratedMobilePages\Controller;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
  * AdController
  */
-class AdController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+class AdController extends ActionController
 {
 	/**
 	 * action show

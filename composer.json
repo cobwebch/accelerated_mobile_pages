@@ -1,11 +1,11 @@
 {
-  "name": "zechendorf/accelerated_mobile_pages",
+  "name": "cobweb/accelerated_mobile_pages",
   "type": "typo3-cms-extension",
   "description": "Template extension for AMP pages with TYPO3",
-  "homepage": "https://github.com/zechendorf/accelerated_mobile_pages",
+  "homepage": "https://github.com/cobwebch/accelerated_mobile_pages",
   "authors": [
     {
-      "name": "Christopher Zechendorf",
+      "name": "Roberto Presedo",
       "role": "Developer"
     }
   ],
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ZECHENDORF\\AcceleratedMobilePages\\": "Classes"
+      "Cobweb\\AcceleratedMobilePages\\": "Classes"
     }
   },
   "replace": {

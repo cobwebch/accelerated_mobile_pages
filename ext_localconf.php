@@ -4,8 +4,11 @@ if (!defined('TYPO3_MODE')) {
 }
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'ZECHENDORF.' . $_EXTKEY,
+	'Cobweb.' . $_EXTKEY,
 	'Ad',
 	array('Ad' => 'show'),
 	array()
 );
+
+
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tslib/class.tslib_fe.php']['hook_eofe']['amp'] = 'Cobweb\\AcceleratedMobilePages\\Hooks\\AmpHooks->hook_eofe';

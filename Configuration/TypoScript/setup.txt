@@ -1,11 +1,9 @@
 page.headerData.999 = COA
 page.headerData.999{
 	10 = TEXT
-	10.data = TSFE:baseUrl
-	20 = TEXT
-	20.typolink.parameter.data = page:uid
-	20.typolink.additionalParams = &tx_accelerated_mobile_pages[amp]=1
-	20.typolink.returnLast = url
+	10.typolink.parameter.data = page:uid
+	10.typolink.additionalParams = &tx_accelerated_mobile_pages[amp]=1
+	10.typolink.returnLast = url
 	wrap = <link rel="amphtml" href="|" />
 }
 
